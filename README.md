@@ -8,9 +8,9 @@
 * 配置 GO 语言环境（打开 GO MOD模式）
 * 以下命令在 Mac下运行： 
 
-go build -o binary/cgif_macos
-CGO_ENABLED=0 GOOS=linux GOARCH=amd64 go build -o binary/cgif_linux
-CGO_ENABLED=0 GOOS=windows GOARCH=amd64 go build -o binary/cgif.exe
+go build -o binary/cgif_macos 
+CGO_ENABLED=0 GOOS=linux GOARCH=amd64 go build -o binary/cgif_linux 
+CGO_ENABLED=0 GOOS=windows GOARCH=amd64 go build -o binary/cgif.exe 
 
 # 使用
 把可执行文件放到对应的目录下
