@@ -44,7 +44,7 @@ GLOBAL OPTIONS:
 ```
 * 查看对应功能的帮助
 ```shell script
-./cgif_macos c -h # ./cgif_macos r -h
+./cgif_macos c -h # 或者./cgif_macos r -h
 NAME:
    cgif_macos create - 进行黑白转换
 
